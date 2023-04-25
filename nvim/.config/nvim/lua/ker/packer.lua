@@ -69,6 +69,8 @@ return require('packer').startup(function(use)
         config = function()
             require('gitsigns').setup()
         end
-    }
+    };
+
+    use('Raimondi/delimitMate');
 }
 end)
