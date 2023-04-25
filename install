@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+
+stow -D nvim
+stow -D tmux
+
+stow nvim
+stow tmux
