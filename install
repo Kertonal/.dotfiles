@@ -2,6 +2,8 @@
 
 stow -D nvim
 stow -D tmux
+stow -D gitconfig
 
 stow nvim
 stow tmux
+stow gitconfig

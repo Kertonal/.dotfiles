@@ -1,0 +1,16 @@
+[core]
+	editor = nvim
+
+[alias]
+	st = status
+	ci = commit
+	logg = log --graph --pretty=oneline --all
+	co = checkout
+	br = branch
+	pom = push origin master
+	oops = commit --amend --no-edit
+	oopsall = commit -a --amend --no-edit
+	pum = pull origin master --rebase
+	re = rebase
+	rem = rebase master
+	com = checkout master
