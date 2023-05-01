@@ -1,4 +1,6 @@
-local lsp = require('lsp-zero').preset({})
+local lsp = require('lsp-zero').preset({
+    name = 'recommended'
+})
 
 lsp.on_attach(function(client, bufnr)
   lsp.default_keymaps({buffer = bufnr})
