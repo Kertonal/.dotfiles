@@ -84,5 +84,9 @@ return require('packer').startup(function(use)
         end
     };
     --]]
+    
+    -- use ( 'saadparwaiz1/cmp_luasnip' );
+    
+    use("rafamadriz/friendly-snippets")
 }
 end)
