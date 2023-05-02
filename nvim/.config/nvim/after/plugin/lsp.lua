@@ -67,3 +67,5 @@ cmp.setup({
         {name = 'luasnip'},
     }
 })
+
+require "lsp_signature".setup();
