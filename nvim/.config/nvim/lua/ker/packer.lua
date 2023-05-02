@@ -87,6 +87,7 @@ return require('packer').startup(function(use)
     
     -- use ( 'saadparwaiz1/cmp_luasnip' );
     
-    use("rafamadriz/friendly-snippets")
+    -- use("rafamadriz/friendly-snippets")
+    use("honza/vim-snippets")
 }
 end)
