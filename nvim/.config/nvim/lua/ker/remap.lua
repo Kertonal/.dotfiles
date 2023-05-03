@@ -11,6 +11,9 @@ vim.keymap.set("n", "<C-u>", "<C-u>M")
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
+vim.keymap.set("n", "<C-j>", "3<C-e>")
+vim.keymap.set("n", "<C-k>", "3<C-y>")
+
 -- greatest remap ever
 vim.keymap.set("x", "<leader>p", [["_dP]])
 
