@@ -80,18 +80,4 @@ return require('packer').startup(function(use)
             require('nvim-autopairs').setup {}
         end
     })
-
-    --[[
-    use{
-        "karb94/neoscroll.nvim",
-        config = function()
-            require("neoscroll").setup()
-        end
-    };
-    --]]
-    
-    -- use ('saadparwaiz1/cmp_luasnip');
-    
-    -- use("rafamadriz/friendly-snippets")
-    -- use("honza/vim-snippets")
 end)
