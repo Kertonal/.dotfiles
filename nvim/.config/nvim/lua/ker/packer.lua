@@ -11,11 +11,8 @@ return require('packer').startup(function(use)
 	})
 
 	use({
-		'sainnhe/sonokai',
-		as = 'sonokai',
-		config = function()
-			vim.cmd('colorscheme sonokai')
-		end
+		'marko-cerovac/material.nvim',
+		as = 'material'
 	})
 
 	use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
