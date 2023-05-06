@@ -33,7 +33,8 @@ lsp.ensure_installed({
     'lua_ls',
     'cssls',
     'pyright',
-    'html'
+    'html',
+    'bashls'
 })
 
 lsp.setup()
