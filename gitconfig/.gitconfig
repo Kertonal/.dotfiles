@@ -16,3 +16,4 @@
 	com = checkout master
 [user]
 	name = Kertonal
+    email =
