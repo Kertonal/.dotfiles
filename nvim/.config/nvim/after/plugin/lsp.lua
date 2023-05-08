@@ -52,9 +52,7 @@ cmp.setup({
         completeopt = 'menu,menuone,noinsert'
     },
     mapping = {
-        ['<Tab>'] = cmp_action.tab_complete(),
-        ['<S-Tab>'] = cmp_action.select_prev_or_fallback(),
-        ['<CR>'] = cmp.mapping.confirm({select = true}),
+        ['<Tab>'] = cmp.mapping.confirm({select = true}),
         ['<C-Space>'] = cmp.mapping.complete(),
         ['<C-f>'] = cmp_action.luasnip_jump_forward(),
         ['<C-b>'] = cmp_action.luasnip_jump_backward(),
