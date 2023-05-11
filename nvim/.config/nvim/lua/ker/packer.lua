@@ -58,7 +58,12 @@ return require('packer').startup(function(use)
 
     use('tpope/vim-unimpaired')
 
-    use('tpope/vim-commentary')
+    use({
+        'terrortylor/nvim-comment',
+        config = function()
+            require('nvim_comment').setup()
+        end
+    })
 
     use('mg979/vim-visual-multi')
 
