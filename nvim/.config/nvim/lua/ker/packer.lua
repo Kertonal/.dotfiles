@@ -67,8 +67,6 @@ return require('packer').startup(function(use)
 
     use('mg979/vim-visual-multi')
 
-	use('machakann/vim-highlightedyank')
-
     use({
         'lewis6991/gitsigns.nvim',
         config = function()
