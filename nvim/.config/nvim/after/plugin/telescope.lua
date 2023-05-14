@@ -8,8 +8,10 @@ require('telescope').setup({
                 ['i'] = {
                 },
                 ['n'] = {
-                    ['-'] = fb_actions.goto_parent_dir
                 }
+            },
+            hidden = {
+                file_browser = true
             }
         }
     }
