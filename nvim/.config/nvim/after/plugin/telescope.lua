@@ -4,6 +4,7 @@ require('telescope').setup({
     extensions = {
         file_browser = {
             hijack_netrw = true,
+            git_status = false,
             mappings = {
                 ['i'] = {
                 },
