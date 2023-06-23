@@ -1,0 +1,1 @@
+alias tmuxs=tmux-sessionizer
