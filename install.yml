@@ -1,0 +1,15 @@
+- name: Install dotfiles
+  hosts: localhost
+  tasks:
+    - name: Remove Neovim config
+      ansible.builtin.file:
+        path: ./nvim
+        state: absent
+
+    - name: Install Neovim config
+      ansible.builtin.git:
+        repo: 'https://github.com/kertonal/neovim-config'
+        dest: './nvim/.config/nvim'
+
+    - name: Execute stow script
+      ansible.builtin.shell: ./stow.sh
