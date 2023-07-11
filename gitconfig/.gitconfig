@@ -16,8 +16,9 @@
 	rem = rebase master
 	com = checkout master
 
-[include]
-    path = ~/.user.gitconfig
 [user]
 	name = Kertonal
 	email = 
+
+[include]
+    path = ~/.user.gitconfig
