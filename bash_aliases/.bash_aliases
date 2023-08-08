@@ -1,1 +1,1 @@
-alias tmuxs=tmux-sessionizer
+alias tmuxs=~/.local/bin/tmux-sessionizer
