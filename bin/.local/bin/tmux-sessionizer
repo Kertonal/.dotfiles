@@ -10,7 +10,7 @@ fi
 
 directories=$(cat $config_file | tr "\n" " ")
 
-selected=$(find $directories -maxdepth 1 -mindepth 1 -type d | fzf)
+selected=$(find $directories -maxdepth 1 -mindepth 1 \( -type d -o -type l \) | fzf)
 
 if [ -z "$selected" ]; then
     exit 0
