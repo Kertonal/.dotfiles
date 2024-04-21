@@ -1,13 +1,15 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 
 stow -D nvim
 stow -D tmux
 stow -D gitconfig
 stow -D bin
 stow -D bash_aliases
+stow -D zsh
 
 stow nvim
 stow tmux
 stow gitconfig
 stow bin
 stow bash_aliases
+stow zsh

@@ -12,4 +12,4 @@
         dest: './nvim/.config/nvim'
 
     - name: Execute stow script
-      ansible.builtin.shell: ./stow.sh
+      ansible.builtin.shell: ./stow
