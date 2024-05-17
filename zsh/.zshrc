@@ -126,3 +126,5 @@ export PATH=$PATH:~/flutter/bin
 export PATH=$PATH:/opt/nvim-linux64/bin
 
 bindkey -s ^f "tmux-sessionizer\n"
+
+export EDITOR=nvim
