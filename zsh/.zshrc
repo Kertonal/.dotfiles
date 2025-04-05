@@ -123,7 +123,7 @@ export PATH=$PATH:~/.local/bin
 export PATH=$PATH:/snap/bin
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:~/flutter/bin
-export PATH=$PATH:/opt/nvim-linux64/bin
+export PATH=$PATH:/opt/nvim-linux-x86_64/bin
 
 bindkey -s ^f "tmux-sessionizer\n"
 

@@ -1,0 +1,7 @@
+rm -rf /opt/nvim-linux-x86_64
+rm -rf /opt/nvim
+
+cd /tmp
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz
+tar -C /opt -xzf nvim-linux-x86_64.tar.gz
+rm nvim-linux-x86_64.tar.gz
