@@ -23,3 +23,5 @@
 
 [include]
     path = ~/.user.gitconfig
+[pull]
+	rebase = true
